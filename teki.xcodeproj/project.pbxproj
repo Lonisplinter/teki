@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C3E27BC2406B21600A8594F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E27BB2406B21600A8594F /* AppDelegate.swift */; };
+		9C3E27BE2406B21600A8594F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E27BD2406B21600A8594F /* SceneDelegate.swift */; };
+		9C3E27C02406B21600A8594F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E27BF2406B21600A8594F /* ViewController.swift */; };
+		9C3E27C32406B21600A8594F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E27C12406B21600A8594F /* Main.storyboard */; };
+		9C3E27C52406B21800A8594F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E27C42406B21800A8594F /* Assets.xcassets */; };
+		9C3E27C82406B21800A8594F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3E27C62406B21800A8594F /* LaunchScreen.storyboard */; };
+		9C3E27D32406B21800A8594F /* tekiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E27D22406B21800A8594F /* tekiTests.swift */; };
+		9C3E27DE2406B21800A8594F /* tekiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3E27DD2406B21800A8594F /* tekiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C3E27CF2406B21800A8594F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3E27B02406B21600A8594F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C3E27B72406B21600A8594F;
+			remoteInfo = teki;
+		};
+		9C3E27DA2406B21800A8594F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3E27B02406B21600A8594F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C3E27B72406B21600A8594F;
+			remoteInfo = teki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C3E27B82406B21600A8594F /* teki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3E27BB2406B21600A8594F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C3E27BD2406B21600A8594F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C3E27BF2406B21600A8594F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C3E27C22406B21600A8594F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C3E27C42406B21800A8594F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C3E27C72406B21800A8594F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C3E27C92406B21800A8594F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3E27CE2406B21800A8594F /* tekiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tekiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3E27D22406B21800A8594F /* tekiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekiTests.swift; sourceTree = "<group>"; };
+		9C3E27D42406B21800A8594F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3E27D92406B21800A8594F /* tekiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tekiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3E27DD2406B21800A8594F /* tekiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tekiUITests.swift; sourceTree = "<group>"; };
+		9C3E27DF2406B21800A8594F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C3E27B52406B21600A8594F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3E27CB2406B21800A8594F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3E27D62406B21800A8594F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C3E27AF2406B21600A8594F = {
+			isa = PBXGroup;
+			children = (
+				9C3E27BA2406B21600A8594F /* teki */,
+				9C3E27D12406B21800A8594F /* tekiTests */,
+				9C3E27DC2406B21800A8594F /* tekiUITests */,
+				9C3E27B92406B21600A8594F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C3E27B92406B21600A8594F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C3E27B82406B21600A8594F /* teki.app */,
+				9C3E27CE2406B21800A8594F /* tekiTests.xctest */,
+				9C3E27D92406B21800A8594F /* tekiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C3E27BA2406B21600A8594F /* teki */ = {
+			isa = PBXGroup;
+			children = (
+				9C3E27BB2406B21600A8594F /* AppDelegate.swift */,
+				9C3E27BD2406B21600A8594F /* SceneDelegate.swift */,
+				9C3E27BF2406B21600A8594F /* ViewController.swift */,
+				9C3E27C12406B21600A8594F /* Main.storyboard */,
+				9C3E27C42406B21800A8594F /* Assets.xcassets */,
+				9C3E27C62406B21800A8594F /* LaunchScreen.storyboard */,
+				9C3E27C92406B21800A8594F /* Info.plist */,
+			);
+			path = teki;
+			sourceTree = "<group>";
+		};
+		9C3E27D12406B21800A8594F /* tekiTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C3E27D22406B21800A8594F /* tekiTests.swift */,
+				9C3E27D42406B21800A8594F /* Info.plist */,
+			);
+			path = tekiTests;
+			sourceTree = "<group>";
+		};
+		9C3E27DC2406B21800A8594F /* tekiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C3E27DD2406B21800A8594F /* tekiUITests.swift */,
+				9C3E27DF2406B21800A8594F /* Info.plist */,
+			);
+			path = tekiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C3E27B72406B21600A8594F /* teki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3E27E22406B21800A8594F /* Build configuration list for PBXNativeTarget "teki" */;
+			buildPhases = (
+				9C3E27B42406B21600A8594F /* Sources */,
+				9C3E27B52406B21600A8594F /* Frameworks */,
+				9C3E27B62406B21600A8594F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = teki;
+			productName = teki;
+			productReference = 9C3E27B82406B21600A8594F /* teki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C3E27CD2406B21800A8594F /* tekiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3E27E52406B21800A8594F /* Build configuration list for PBXNativeTarget "tekiTests" */;
+			buildPhases = (
+				9C3E27CA2406B21800A8594F /* Sources */,
+				9C3E27CB2406B21800A8594F /* Frameworks */,
+				9C3E27CC2406B21800A8594F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C3E27D02406B21800A8594F /* PBXTargetDependency */,
+			);
+			name = tekiTests;
+			productName = tekiTests;
+			productReference = 9C3E27CE2406B21800A8594F /* tekiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C3E27D82406B21800A8594F /* tekiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3E27E82406B21800A8594F /* Build configuration list for PBXNativeTarget "tekiUITests" */;
+			buildPhases = (
+				9C3E27D52406B21800A8594F /* Sources */,
+				9C3E27D62406B21800A8594F /* Frameworks */,
+				9C3E27D72406B21800A8594F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C3E27DB2406B21800A8594F /* PBXTargetDependency */,
+			);
+			name = tekiUITests;
+			productName = tekiUITests;
+			productReference = 9C3E27D92406B21800A8594F /* tekiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C3E27B02406B21600A8594F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lonis HANTAOU";
+				TargetAttributes = {
+					9C3E27B72406B21600A8594F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9C3E27CD2406B21800A8594F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9C3E27B72406B21600A8594F;
+					};
+					9C3E27D82406B21800A8594F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9C3E27B72406B21600A8594F;
+					};
+				};
+			};
+			buildConfigurationList = 9C3E27B32406B21600A8594F /* Build configuration list for PBXProject "teki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C3E27AF2406B21600A8594F;
+			productRefGroup = 9C3E27B92406B21600A8594F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C3E27B72406B21600A8594F /* teki */,
+				9C3E27CD2406B21800A8594F /* tekiTests */,
+				9C3E27D82406B21800A8594F /* tekiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C3E27B62406B21600A8594F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3E27C82406B21800A8594F /* LaunchScreen.storyboard in Resources */,
+				9C3E27C52406B21800A8594F /* Assets.xcassets in Resources */,
+				9C3E27C32406B21600A8594F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3E27CC2406B21800A8594F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3E27D72406B21800A8594F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C3E27B42406B21600A8594F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3E27C02406B21600A8594F /* ViewController.swift in Sources */,
+				9C3E27BC2406B21600A8594F /* AppDelegate.swift in Sources */,
+				9C3E27BE2406B21600A8594F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3E27CA2406B21800A8594F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3E27D32406B21800A8594F /* tekiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3E27D52406B21800A8594F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3E27DE2406B21800A8594F /* tekiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C3E27D02406B21800A8594F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C3E27B72406B21600A8594F /* teki */;
+			targetProxy = 9C3E27CF2406B21800A8594F /* PBXContainerItemProxy */;
+		};
+		9C3E27DB2406B21800A8594F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C3E27B72406B21600A8594F /* teki */;
+			targetProxy = 9C3E27DA2406B21800A8594F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C3E27C12406B21600A8594F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C3E27C22406B21600A8594F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C3E27C62406B21800A8594F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C3E27C72406B21800A8594F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C3E27E02406B21800A8594F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C3E27E12406B21800A8594F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C3E27E32406B21800A8594F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = teki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonishantaou.teki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C3E27E42406B21800A8594F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = teki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonishantaou.teki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9C3E27E62406B21800A8594F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tekiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonishantaou.tekiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teki.app/teki";
+			};
+			name = Debug;
+		};
+		9C3E27E72406B21800A8594F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tekiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonishantaou.tekiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teki.app/teki";
+			};
+			name = Release;
+		};
+		9C3E27E92406B21800A8594F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tekiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonishantaou.tekiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = teki;
+			};
+			name = Debug;
+		};
+		9C3E27EA2406B21800A8594F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tekiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonishantaou.tekiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = teki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C3E27B32406B21600A8594F /* Build configuration list for PBXProject "teki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3E27E02406B21800A8594F /* Debug */,
+				9C3E27E12406B21800A8594F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3E27E22406B21800A8594F /* Build configuration list for PBXNativeTarget "teki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3E27E32406B21800A8594F /* Debug */,
+				9C3E27E42406B21800A8594F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3E27E52406B21800A8594F /* Build configuration list for PBXNativeTarget "tekiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3E27E62406B21800A8594F /* Debug */,
+				9C3E27E72406B21800A8594F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3E27E82406B21800A8594F /* Build configuration list for PBXNativeTarget "tekiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3E27E92406B21800A8594F /* Debug */,
+				9C3E27EA2406B21800A8594F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C3E27B02406B21600A8594F /* Project object */;
+}
